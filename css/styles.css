@@ -4,7 +4,7 @@
 }
 
 HTML  {
-    background: url(https://i.ibb.co/SxpmBDM/203514.jpg) no-repeat center center fixed;
+    background: url(../img/203514.jpg) no-repeat center center fixed;
     background-size: cover;
 
     Font-size: 62.5% 
@@ -265,7 +265,7 @@ ul.intergrid_list {
     ul.intergrid_list {
         list-style-type: disc;
         list-style-position: inside;
-        padding-top: 150px;
+        padding-top: 50px;
         color: antiquewhite;
     }
 
@@ -282,17 +282,17 @@ ul.intergrid_list {
         border-radius: 25px;
         width: 150px;
         height: 200px;
-        margin-left: 40px;
+        margin-left: 2rem;
+
     }
     .grid {
-        display: grid;
-        grid-template-columns: 150px ;
-        grid-template-rows: 150px ;
+        display: flex;
         padding-bottom: 300px;
         padding-top: 150px;
-        margin-left: 0%;
-        padding-left: 0%;
+        margin: 0%;
+        padding: 0%;
     }
+
 
     .titulossec {
         font-family: American Typewriter, serif;
@@ -363,6 +363,7 @@ ul.intergrid_list {
         border-radius: 25px;
         width: 150px;
         height: 200px;
+        margin-left: 2rem;
 
     }
     .grid {
@@ -386,10 +387,12 @@ ul.intergrid_list {
         }
 
         .imagen {
-            display: grid;
+            display: flex;
+            flex-direction: column;
             grid-template-columns: 300px ;
             grid-template-rows: 300px;
-            text-align: center;
+            justify-content: center;
+            align-items: center;
             padding-left: 0%;
         }
 
